@@ -1,13 +1,15 @@
 {
   "name": "react-navigation-tabs",
-  "version": "0.8.2",
+  "version": "1.0.0",
   "description": "Tab Navigation components for React Navigation",
   "main": "dist/index.js",
   "files": [
     "dist/",
+    "src/",
     "createBottomTabNavigator.js",
     "createMaterialTopTabNavigator.js"
   ],
+  "react-native": "src/index.js",
   "scripts": {
     "test": "jest",
     "flow": "flow",
@@ -45,6 +47,8 @@
   },
   "devDependencies": {
     "@expo/vector-icons": "^6.2.0",
+    "@react-navigation/core": "^3.0.0",
+    "@react-navigation/native": "^3.0.",
     "babel-cli": "^6.26.0",
     "babel-jest": "^21.2.0",
     "babel-plugin-syntax-class-properties": "^6.13.0",
@@ -65,13 +69,12 @@
     "react": "16.3.1",
     "react-dom": "16.3.1",
     "react-native": "~0.55.4",
-    "react-navigation": "^2.1.0",
+    "react-native-screens": "^1.0.0-alpha.15",
     "react-test-renderer": "16.2.0"
   },
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
-    "react-navigation": "^2.0.0",
     "react-native-screens": "^1.0.0 || ^1.0.0-alpha"
   },
   "jest": {
